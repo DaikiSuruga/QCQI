@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2018.8.2)  4 AUG 2018 00:36
+This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2018.8.2)  4 AUG 2018 01:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -141,6 +141,6 @@ Here is how much of TeX's memory you used:
  5005 multiletter control sequences out of 15000+600000
  10379 words of font info for 53 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 25i,7n,27p,177b,218s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,8n,27p,177b,220s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Chap2.1.dvi (2 pages, 6144 bytes).
+Output written on Chap2.1.dvi (2 pages, 7788 bytes).

@@ -1,0 +1,53 @@
+\begin{flushleft}
+{\large Exercise 2.2: (Matrix represetations: example)}
+ Suppose $V$ is a vector space with basis vectors $\ket{0}$ and $\ket{1}$,
+and $A$ is a linear operator from $V$ to $V$ such that 
+$A\ket{0} = \ket{1} ~and~ A\ket{1} = \ket{0}.$ 
+Give a matrix representation for $A$, with respect to the input basis 
+$\ket{0}, \ket{1},$ and the output basis $\ket{0}, \ket{1}.$ 
+Find input and output bases which give rise to a different matrix representation of $A$.
+
+\vspace{0.1in}
+{\large proof:}
+　$V$の基底
+\{$
+ \ket{v_1} = \ket{0}, \ket{v_2}=\ket{1} 
+$
+\}に対して演算子$A:V \to V $は、
+\setcounter{equation}{0}
+\begin{eqnarray*}
+A\ket{v_1} &=& 0\ket{v_1} + 1\ket{v_2},\\
+A\ket{v_2} &=& 1\ket{v_1} + 0\ket{v_2}
+\end{eqnarray*}
+という作用をする。
+\newline
+定義より、演算子$A:V \to W $において、
+$V$の基底を$\{\ket{v_1},\cdots, \ket{v_n}\}$, 
+\newline
+$W$の基底を$\{\ket{w_1},\cdots, \ket{w_m}\}$
+\newline
+とすれば、$A$の行列表現における(i, j)成分$A_{ij}$は
+\begin{eqnarray}
+A\ket{v_j} = \sum_{i} A_{ij} \ket{w_i}
+\end{eqnarray}
+と定義されている。
+ 故に
+\begin{eqnarray*}
+A_{11}=0,
+A_{12}=1,
+A_{21}=1,
+A_{22}=0
+\end{eqnarray*}
+\newline
+すなわち、
+\[
+A = \left(
+	\begin{array}{cc}
+	0 & 1\\
+	1 & 0
+	\end{array}
+	\right).
+\]
+
+ \end{flushleft}
+

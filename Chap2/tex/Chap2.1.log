@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2018.8.2)  4 AUG 2018 01:18
+This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2018.8.2)  4 AUG 2018 01:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -128,15 +128,15 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 ) [1
 
 ]
-\openout2 = `hukusyuu.aux'.
+\openout2 = `hukushuu1.aux'.
 
 
-(./hukusyuu.tex) [2
+(./hukushuu1.tex) [2
 
-] (./Chap2.1.aux (./hukusyuu.aux)) ) 
+] (./Chap2.1.aux (./hukushuu1.aux)) ) 
 Here is how much of TeX's memory you used:
- 1012 strings out of 493239
- 11922 string characters out of 6144408
+ 1013 strings out of 493239
+ 11935 string characters out of 6144408
  77226 words of memory out of 5000000
  5005 multiletter control sequences out of 15000+600000
  10379 words of font info for 53 fonts, out of 8000000 for 9000

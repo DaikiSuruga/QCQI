@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2018.8.2)  3 AUG 2018 22:28
+This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2018.8.2)  4 AUG 2018 00:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -61,30 +61,44 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/braket/braket.sty) (./Chap2.1.aux
+(/usr/local/texlive/2018/texmf-dist/tex/latex/braket/braket.sty)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
+Package color Info: Driver file: dvips.def on input line 147.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(./Chap2.1.aux (./hukusyuu.aux))
 \openout1 = `Chap2.1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 7.
+(Font)              scaled to size 13.31541pt on input line 8.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 7.
+(Font)              scaled to size 13.31541pt on input line 8.
  (./ex2_1.tex
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 2.
@@ -95,7 +109,8 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 4.62341pt on input line 7.
 LaTeX Font Info:    Try loading font information for U+msa on input line 7.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 7.
@@ -113,14 +128,19 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 ) [1
 
 ]
-(./Chap2.1.aux) ) 
+\openout2 = `hukusyuu.aux'.
+
+
+(./hukusyuu.tex) [2
+
+] (./Chap2.1.aux (./hukusyuu.aux)) ) 
 Here is how much of TeX's memory you used:
- 779 strings out of 493239
- 8659 string characters out of 6144408
- 75155 words of memory out of 5000000
- 4793 multiletter control sequences out of 15000+600000
+ 1012 strings out of 493239
+ 11922 string characters out of 6144408
+ 77226 words of memory out of 5000000
+ 5005 multiletter control sequences out of 15000+600000
  10379 words of font info for 53 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 25i,7n,27p,163b,220s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,7n,27p,177b,218s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Chap2.1.dvi (1 page, 3556 bytes).
+Output written on Chap2.1.dvi (2 pages, 6144 bytes).

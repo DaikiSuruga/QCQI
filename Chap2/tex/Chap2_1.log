@@ -1,8 +1,8 @@
-This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017/Debian) (preloaded format=uplatex 2018.8.1)  4 AUG 2018 13:43
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017/Debian) (preloaded format=uplatex 2018.8.1)  4 AUG 2018 14:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Chap2_1
+**Chap2_1.tex
 (./Chap2_1.tex
 pLaTeX2e <2017/10/28u01>+4 (based on LaTeX2e <2017-04-15>)
 Babel <3.18> and hyphenation patterns for 26 language(s) loaded.
@@ -192,14 +192,15 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 
 ] (./ex2_3.tex) (./ex2_4.tex [3
 
-]) [4] (./Chap2_1.aux (./hukushuu1.aux)) ) 
+]) (./ex2_5.tex) [4] (./Chap2_1.aux
+(./hukushuu1.aux)) ) 
 Here is how much of TeX's memory you used:
- 1687 strings out of 494731
- 19967 string characters out of 6176321
+ 1690 strings out of 494731
+ 19992 string characters out of 6176321
  79527 words of memory out of 5000000
  5197 multiletter control sequences out of 15000+600000
  10019 words of font info for 52 fonts, out of 8000000 for 9000
  269 hyphenation exceptions out of 8191
- 27i,8n,26p,215b,239s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,8n,26p,219b,239s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Chap2_1.dvi (4 pages, 12108 bytes).
+Output written on Chap2_1.dvi (4 pages, 12224 bytes).

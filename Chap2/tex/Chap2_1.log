@@ -1,31 +1,13 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017/Debian) (preloaded format=platex 2018.8.1)  4 AUG 2018 13:39
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017/Debian) (preloaded format=uplatex 2018.8.1)  4 AUG 2018 13:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Chap2.1.tex
-(./Chap2.1.tex
-pLaTeX2e <2017/10/28>+4 (based on LaTeX2e <2017-04-15>)
+**Chap2_1
+(./Chap2_1.tex
+pLaTeX2e <2017/10/28u01>+4 (based on LaTeX2e <2017-04-15>)
 Babel <3.18> and hyphenation patterns for 26 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/platex/jsclasses/jsarticle.cls
 Document Class: jsarticle 2017/10/04 jsclasses (okumura, texjporg)
-
-! Class jsarticle Error: You are running pLaTeX.
-(jsarticle)              Please use upLaTeX instead, or remove 'uplatex' from
-(jsarticle)              the class option list.
-
-See the jsarticle class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.244       {\@ehc}
-                   
-? 
-! Interruption.
-\GenericError  ...                                
-                                                  \endgroup 
-l.244       {\@ehc}
-                   
-? 
 \jsc@mpt=\dimen118
 \jsc@mmm=\dimen119
 \jsc@smallskipamount=\skip41
@@ -36,16 +18,16 @@ LaTeX Info: Redefining \textmc on input line 481.
 LaTeX Info: Redefining \textgt on input line 483.
 \symmincho=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
-(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 545.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 736.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 736.
+(Font)                  JY2/mc/m/n --> JY2/gt/m/n on input line 545.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 736.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 736.
 \fullwidth=\dimen120
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 889.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 889.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 7.39746pt on input line 889.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 7.39746pt on input line 889.
 \c@part=\count82
 \c@section=\count83
 \c@subsection=\count84
@@ -151,9 +133,9 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
-) (./Chap2.1.aux
+) (./Chap2_1.aux
 (./hukushuu1.aux))
-\openout1 = `Chap2.1.aux'.
+\openout1 = `Chap2_1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
@@ -167,23 +149,23 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 6.
+LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 6.
+LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 9.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 9.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 9.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 9.
  (./ex2_1.tex
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 2.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 2.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 7.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 7.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 11.09619pt on input line 2.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 11.09619pt on input line 2.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 6.47278pt on input line 7.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 4.62341pt on input line 7.
 LaTeX Font Info:    Try loading font information for U+msa on input line 7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -210,14 +192,14 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 
 ] (./ex2_3.tex) (./ex2_4.tex [3
 
-]) [4] (./Chap2.1.aux (./hukushuu1.aux)) ) 
+]) [4] (./Chap2_1.aux (./hukushuu1.aux)) ) 
 Here is how much of TeX's memory you used:
- 1687 strings out of 494735
- 19930 string characters out of 6176127
- 79179 words of memory out of 5000000
- 5191 multiletter control sequences out of 15000+600000
- 11413 words of font info for 52 fonts, out of 8000000 for 9000
+ 1687 strings out of 494731
+ 19967 string characters out of 6176321
+ 79527 words of memory out of 5000000
+ 5197 multiletter control sequences out of 15000+600000
+ 10019 words of font info for 52 fonts, out of 8000000 for 9000
  269 hyphenation exceptions out of 8191
- 27i,8n,26p,219b,239s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,8n,26p,215b,239s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Chap2.1.dvi (4 pages, 12092 bytes).
+Output written on Chap2_1.dvi (4 pages, 12108 bytes).

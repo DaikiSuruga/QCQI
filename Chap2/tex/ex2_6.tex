@@ -1,0 +1,24 @@
+\begin{flushleft}
+\setcounter{equation}{0}
+{\Large Exercise 2.6:} Show that any inner product $(\cdot, \cdot)$ is cojugate-linear in the first argument ,
+\begin{equation}
+(\sum_{i} \lambda_i \ket{w_i}, \ket{v}) = \sum_i \lambda_{i}^* (\ket{w_i}, \ket{v}).
+\end{equation}
+{\large proof:} 内積の定義(本文p.65)より、
+\begin{eqnarray}
+(\ket{v}, \sum_{i} \lambda_i \ket{w}) = \sum_{i} \lambda_i (\ket{v}, \ket{w_i}), \\ 
+(\ket{v}, \ket{w}) = (\ket{w}, \ket{v})^*.
+\end{eqnarray}
+ゆえに、
+\begin{eqnarray*}
+(\sum_i \lambda_i \ket{w_i}, \ket{v}) &=&  (\sum_i \lambda_i \ket{w_i}, \ket{v})^{**} \\ 
+&=&
+((\sum_i \lambda_i \ket{w_i}, \ket{v})^*)^* \\
+&=&(\ket{v}, \sum_i \lambda_i \ket{w_i})^*\\
+&=&(\sum_i \lambda_i (\ket{v}, \ket{w_i}))^*\\
+&=&\sum_i \lambda_{i}^* (\ket{v}, \ket{w_i})^*\\
+&=&\sum_i \lambda_{i}^* (\ket{w_i}, \ket{v}).\\
+\end{eqnarray*}
+ゆえに、内積は第一引数に関して反線型(conjugate-linear)である。
+\end{flushleft}
+

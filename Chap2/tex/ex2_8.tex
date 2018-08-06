@@ -1,7 +1,59 @@
+\setcounter{equation}{0}
 \begin{flushleft}
 {\Large Exercise2.8:} Prove that the Gram-Schmidt procedure produces an orthonormal basis for $V$.
 \newline
 {\large proof:}
-
+帰納法による。
+内積を有するベクトル空間$V$において、
+$\ket{w_1}, \cdots, \ket{w_d}$を基底集合とする。
+p.66のグラム・シュミットの正規直交化法により、
+正規直交基底集合$\ket{v_1}, \cdots, \ket{v_d}$を作る。
+このとき、
+\begin{eqnarray}
+\ket{v_1} = \frac{\ket{w_1}}{\|\ket{w_1}\|}.
+\end{eqnarray}
+ゆえに、同じベクトル同士の内積が実数かつ負でないことに注意すれば、
+\begin{eqnarray*}
+\braket{v_1|v_1} &=& \frac{1}{\|\ket{w_1}\|^2}\braket{w_1|w_1}\\
+&=& \frac{1}{\|\sqrt{\braket{w_1|w_1}}\|^2}\braket{w_1|w_1}\\
+&=& 1.
+\end{eqnarray*}
+これより、$\ket{v_k},(1\leq k\leq d)$において、$k = 1$のとき 
+\{$\ket{v_1}$\}の元は正規かつ直交している。
+（実際は元が一つしかないため直交していると考えにくいが、
+詳しく言えば、\{$\ket{v_1}$\}の任意の元$\ket{i}, \ket{j}$について
+\begin{eqnarray*}
+\braket{i|j} = \delta_{ij}
+\end{eqnarray*}
+が成立しているということである。
+）
+\newline
+ここで、$k = n$のときまでグラムシュミットの正規直交化法を行ったことによる集合
+\{$\ket{v_1}, \cdots, \ket{v_{n}}$\}が
+正規直交基底集合となっているとする。
+このとき、$\ket{v_{n+1}}$を
+\begin{eqnarray}
+\ket{v_{n+1}} \equiv \frac{\ket{w_{n+1}} - 
+\sum_{i=1}^n\braket{v_i|w_{n+1}}\ket{v_i}}
+{\|\ket{w_{n+1}} - 
+\sum_{i=1}^n\braket{v_i|w_{n+1}}\ket{v_i}\|}
+\end{eqnarray}
+と定義すると、任意の$k, (1\leq k\leq n)$について
+\{$\ket{v_1}, \cdots, \ket{v_{n}}$\}が
+正規直交基底集合となっていることから、
+\begin{eqnarray*}
+\braket{v_k|v_{n+1}} &=& \frac{1}{\|\ket{w_{n+1}} - 
+\sum_{i=1}^n\braket{v_i|w_{n+1}}\ket{v_i}\|}
+(\braket{v_k|w_{n+1}} - 
+\sum_{i=1}^n\braket{v_i|w_{n+1}}\braket{v_k|v_i})\\
+&=& \frac{1}{\|\ket{w_{n+1}} - 
+\sum_{i=1}^n\braket{v_i|w_{n+1}}\ket{v_i}\|}
+(\braket{v_k|w_{n+1}} - \braket{v_k|w_{n+1}})\\
+&=& 0.
+\end{eqnarray*}
+また、$\braket{v_{n+1}|v_{n+1}} = 1$は定義(2)より明らかである。ゆえに
+\{$\ket{v_1}, \cdots, \ket{v_{n+1}}$\}は
+正規直交基底集合である。すなわちこのようにして作られた基底集合
+\{$\ket{v_1}, \cdots, \ket{v_{d}}$\}は
+正規直交基底集合をなす。
 \end{flushleft}
-

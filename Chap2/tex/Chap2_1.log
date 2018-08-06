@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2018.8.2)  5 AUG 2018 20:00
+This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2018.8.2)  6 AUG 2018 17:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -134,7 +134,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(./Chap2_1.aux)
+(./Chap2_1.aux (./hukushuu1.aux) (./hukushuu2.aux))
 \openout1 = `Chap2_1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -159,9 +159,9 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 13.31541pt on input line 9.
  (./ex2_1.tex
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 2.
+(Font)              scaled to size 11.09619pt on input line 6.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 2.
+(Font)              scaled to size 11.09619pt on input line 6.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 6.47278pt on input line 7.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
@@ -194,15 +194,22 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 ] (./ex2_3.tex) (./ex2_4.tex [3
 
 ]) (./ex2_5.tex)
-(./ex2_6.tex) (./ex2_7.tex) (./ex2_8.tex) [4] (./Chap2_1.aux (./hukushuu1.aux))
- ) 
+(./ex2_6.tex) [4]
+\openout2 = `hukushuu2.aux'.
+
+ (./hukushuu2.tex) [5
+
+] (./ex2_7.tex) (./ex2_8.tex [6
+
+])
+[7] (./Chap2_1.aux (./hukushuu1.aux) (./hukushuu2.aux)) ) 
 Here is how much of TeX's memory you used:
- 1625 strings out of 493239
- 18852 string characters out of 6144408
- 89286 words of memory out of 5000000
- 5586 multiletter control sequences out of 15000+600000
+ 1636 strings out of 493239
+ 18997 string characters out of 6144408
+ 90286 words of memory out of 5000000
+ 5588 multiletter control sequences out of 15000+600000
  10379 words of font info for 53 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 27i,8n,27p,219b,239s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,9n,27p,219b,243s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Chap2_1.dvi (4 pages, 14564 bytes).
+Output written on Chap2_1.dvi (7 pages, 23828 bytes).

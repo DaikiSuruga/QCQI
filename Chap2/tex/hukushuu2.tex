@@ -1,0 +1,44 @@
+{\Large 復習2(内積演算子、外積表現)}
+\newline
+(内積演算子):標準的な量子力学における内積$(\ket{v}, \ket{w})$の表記は
+$\braket{v|w}$であり、$\bra{v}$はベクトル$\ket{v}$の双対ベクトルを表す;
+双対ベクトルとは、内積を有するベクトル空間$V$から$\mathbb{C}$への線型演算子であり、
+$\bra{v}(\ket{w}) \equiv \braket{v|w} \equiv (\ket{v}, \ket{w})$として定義される。
+\newline
+(外積表現):$\ket{v}, \ket{w}$をそれぞれ内積ベクトル空間$V, W$のベクトルとする。
+このとき$\ket{w}\bra{v}$を$V$から$W$への線型演算子として次式で定義する。
+\begin{eqnarray*}
+(\ket{w}\bra{v})(\ket{v'}) \equiv \ket{w} \braket{v|v'} = \braket{v|v'}\ket{w}.
+\end{eqnarray*}
+$\ket{i}, (1\leq i\leq n)$をベクトル空間$V$の任意の正規直交基底とする。
+このとき任意のベクトル$\ket{v}$は$v_i \in \mathbb{C}, (1\leq i\leq n)$を用いて
+$\ket{v} = \sum_i v_i \ket{i}$と表すことが出来る。
+$\braket{i|v} = v_i$であることに注意すると、
+\begin{eqnarray*}
+(\sum_i \ket{i} \bra{i}) \ket{v} = \sum_i \ket{i} \braket{i|v} = \sum_i v_i \ket{i}
+= \ket{v}.
+\end{eqnarray*}
+ゆえに
+\begin{eqnarray*}
+\sum_i \ket{i} \bra{i} = I.
+\end{eqnarray*}
+これは、正規直交基底による$completeness~relation$として知られている。
+これを応用することで任意の線型演算子を外積表現で表すことが出来る。
+\newline
+$A:V \to W$を線型演算子,$\ket{v_i}$を$V$の正規直交基底、
+$\ket{w_j}$を$W$の正規直交基底とする。
+このとき、
+\begin{eqnarray*}
+A &=& I_W A I_V \\
+&=& \sum_{ij} \ket{w_j} \braket{w_j|A|v_i} \bra{v_i} \\
+&=& \sum_{ij} \braket{w_j|A|v_i} \ket{w_j} \bra{v_i}.
+\end{eqnarray*}
+ここで、正規直交基底$\ket{v_k}$に対する$A$の作用は
+$A\ket{v_k} = \sum_j \braket{w_j|A|v_k}\ket{w_j}$となる。
+これより、Aの基底$\ket{v_i}, \ket{w_j}$に対する
+表現行列の(i, j)成分を$a_{ij}$とすれば
+\begin{eqnarray*}
+a_{ij} = \braket{w_i|A|v_j}
+\end{eqnarray*}
+となる。
+

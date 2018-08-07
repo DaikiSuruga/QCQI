@@ -1,0 +1,15 @@
+\section{\Large Exercise 2.14:(Anti-linearity of the adjoint)}
+Show that the adjoint operation is anti-linear,
+\begin{eqnarray*}
+(\sum_i a_i A_i)^\dagger = \sum_i a_i^* A_i^\dagger.
+\end{eqnarray*}
+{\large proof:}
+ベクトル空間$V$の任意のベクトル$\ket{v}$,$\ket{w}$に対して,
+\begin{eqnarray*}
+(\ket{v}, \sum_i a_i A_i\ket{w})
+&=& \sum_i a_i (\ket{v}, A_i\ket{w})\\
+&=& \sum_i a_i (A_i^\dagger\ket{v}, \ket{w})\\
+&=& (\sum_i a_i^* A_i^\dagger\ket{v}, \ket{w}).
+\end{eqnarray*}
+ここで内積が第一引数に関して反線型であることと、第二引数に関して線型であること
+を用いた。

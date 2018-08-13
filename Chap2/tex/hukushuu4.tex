@@ -1,0 +1,145 @@
+\hypertarget{hukushuu4}{}
+\section{\Large 復習4(正規行列の性質):}
+複素正方行列$A$が正規行列であるとは,$A^\dagger A = AA^\dagger$
+を満たすことを言う。
+\newline
+\begin{itemize}
+\item {\large 性質1:}$A$を正規行列とし、$A$の固有値$\alpha \in \mathbb{C}$
+に対する固有空間を$V_{\alpha}$とするとき、$x \in V_{\alpha}^\perp$
+ならば$Ax \in V_{\alpha}^\perp$が成立する。
+\newline
+{\large proof:}
+$x \in V_{\alpha}^\perp, y \in V_{\alpha}$とすると、
+$A(A^\dagger y) = A^\dagger (Ay) = A^\dagger (\alpha y) = \alpha (A^\dagger y)$
+なので、$A^\dagger y \in V_{\alpha}$である。
+よって、$(Ax) \cdot y = x \cdot ( A^\dagger y) = 0.$
+\newline
+\item {\large 性質2:}$A$を正規行列,$P$がユニタリ行列とすると、
+$B = P^{-1}AP = P^\dagger A P$
+は正規行列である。
+\newline
+{\large proof:}
+\begin{eqnarray*}
+BB^\dagger &=& (P^\dagger AP)(P^\dagger AP)^\dagger\\
+ &=& (P^\dagger AP)(P^\dagger A^\dagger P)\\
+ &=& P^\dagger AA^\dagger P\\
+ &=& P^\dagger A^\dagger AP\\
+ &=& P^\dagger A^\dagger PP^\dagger AP\\
+&=& (P^\dagger AP)^\dagger (P^\dagger AP)\\
+&=& B^\dagger B.
+\end{eqnarray*}
+ゆえに$B$は正規行列である。
+\item {\large 性質3:}複素$n$次正方行列$A$がユニタリ対角化可能$\Leftrightarrow$
+$A$が正規行列.
+\newline
+{\large proof:}
+まず、次の補題を証明しておく。
+\newline
+\color{black}
+補題:
+任意のベクトル空間$V$と
+その部分空間$W$について、$V = W \oplus W^\perp$.
+ここで、$\oplus$ は直和を表す。
+\newline
+\color{blue}
+(表記について:
+\begin{itemize}
+\item $Vがその部分空間W_1, \cdots, W_kの直和である
+\Leftrightarrow
+\newline
+V = \{w_1 + w_2 + \cdots w_k | w_i \in W_i, (1 \leq i\leq k)\}$
+\newline
+かつ
+\newline
+$w_1 + w_2 + \cdots w_k = 0, ~( w_i \in W_i, (1 \leq i\leq k))$
+ならば$w_i = 0, (1 \leq i\leq k)$.
+\item
+$V$の部分空間$W$の直交補空間$W^\perp$は下式で表される.
+\newline
+$W^\perp = \{v \in V | w \cdot v = 0, \forall w \in W\}$
+)
+\end{itemize}
+\color{black}
+補題の証明:
+\newline
+$W$の正規直交基底$w_1, \cdots, w_k$を延長した$V$の基底を
+$w_1, \cdots, w_k, w_{1}', \cdots, w_{n-k}'$とする。
+\newline
+\color{blue}
+(補足:[基底の延長]
+\newline
+基底$w_i, (1 \leq i \leq k)$に含まれない$V$のベクトル$w_1'$をとると、
+\begin{eqnarray*}
+(\sum_i a_i w_i) + a_1'w_1' = 0
+ &\Leftrightarrow& (\sum_i a_i w_i) = - a_1'w_1'\\
+&\Leftrightarrow& \forall i \in {1, \cdots, k}, a_i = 0, a_1' = 0.\\
+&\Leftrightarrow& w_1, \cdots, w_k, w_1'
+は一次独立。
+\end{eqnarray*}
+このように基底を延長することで$V$の基底を作ることができる。
+)
+\color{black}
+\newline
+gram-schmidtの直交化により、最初のk個を変えずに正規直交基底を作ることができる。
+$V$のベクトル$v = \sum_i \lambda_i w_i + \sum_j \lambda_j' w_j'$
+が$W^\perp$に属する条件は、各$w_i, (1 \leq i \leq k)$との内積が0になることである。
+\newline
+\color{blue}
+(補足:
+\begin{eqnarray*}
+v \in W^\perp 
+&\Leftrightarrow& \forall w \in W, v \cdot w = 0\\
+&\Leftrightarrow& \forall w \in W, \forall \lambda_i, \lambda_j' \in \mathbb{C},
+(\sum_i \lambda_i w_i + \sum_j \lambda_j' w_j') \cdot w = 0\\
+&\Leftrightarrow& \forall w \in W, \forall \lambda_i, \lambda_j' \in \mathbb{C},
+\sum_i \lambda_i^*  w_i \cdot w + \sum_j \lambda_j^{'*}  w_j' \cdot w = 0\\
+&\Leftrightarrow& \forall w \in W, \forall \lambda_i \in \mathbb{C}, 
+\sum_i \lambda_i^* w_i \cdot w = 0 ~~(\because 各w_i, w_j'は正規直交基底をなす)\\
+&\Leftrightarrow& \forall w \in W, \forall i \in \{1, \cdots, k\},  \lambda_i = 0
+\end{eqnarray*}
+)
+\newline
+\color{black}
+これは$\lambda_i = 0, (1\leq i\leq k)$と同値。
+よって、$W^\perp$の任意のベクトルは$w_j', (1 \leq j\leq n - k)$の線形和で書けるため、
+$W^\perp$の正規直交基底は$w_1', \cdots, w_{n - k}'$である。
+補題の証明は以上。
+\color{red}
+\newline
+帰納法で証明する。
+\newline
+$\cdot$ n = 1の時は,$\Leftarrow, \Rightarrow$共に成立している。
+\newline
+$\cdot$ n $>$ 1とする。まず$\Leftarrow$を証明する。
+\newline
+$A$を正規行列とする。　
+線形変換$f:\mathbb{C}^n \rightarrow \mathbb{C}^n$を
+$f(x) = Ax, x \in \mathbb{C}^n$と定義する。
+$A$の固有値$\alpha$に対する固有空間$V_{\alpha}$の直交補空間$V_{\alpha}^\perp$
+を考える。$V_{\alpha}$の正規直交基底を$\Lambda$, $V_{\alpha}$の次元$dimV_{\alpha} = m$とし、
+$V_{\alpha}^\perp$の正規直交基底を$\Upsilon$とすると、$\Lambda, \Upsilon$
+を並べて得られる$\Omega$は$\mathbb{C}$の正規直交基底である($\because$補題).
+ここで性質1より、$f$の$\Omega$に関する表現行列は、
+$U^{-1}AU = \alpha E_m \oplus A_1$で表される。ここで$U$は、
+正規直交基底$\Omega$を並べてできるユニタリ行列である。
+性質2より、$U^{-1}AU$は正規行列である。これより(n - m)次正方行列$A_1$は正規行列である。
+帰納法の仮定から(n - m)次ユニタリ行列$U_1$が存在して、$U_1^{-1}A_1U_1$は対角行列となる。
+$P = U(E_m \oplus U_1)$とおくと、
+\begin{eqnarray*}
+PP^\dagger &=& U(E_m \oplus U_1) (U(E_m \oplus U_1))^\dagger\\
+&=& U(E_m \oplus U_1 ) (E_m \oplus U_1)^\dagger U^\dagger\\
+&=& U(E_m \oplus U_1 U_1^\dagger) U^\dagger\\
+&=& I,\\
+P^{-1}AP &=& P^\dagger A P\\
+&=& (U(E_m \oplus U_1))^\dagger A (U(E_m \oplus U_1))\\
+&=& (E_m \oplus U_1^\dagger) U^\dagger A U (E_m \oplus U_1)\\
+&=& (E_m \oplus U_1^\dagger)(\alpha E_m \oplus A_1) (E_m \oplus U_1)\\
+&=& \alpha E_m \oplus U_1^\dagger A_1 U_1.
+\end{eqnarray*}
+ゆえに$P$はユニタリ行列であり、$U_1^\dagger A_1 U_1$が対角行列となることから
+$P^{-1}AP = P^\dagger A P$は対角行列となる。
+以上より,$\Leftarrow$が示せた。
+\newline
+$A$について、あるユニタリ行列$U$が存在して、$D = U^{-1}AU$が対角行列であるとする。
+この時、性質2より$A = U D U^{-1}$は正規行列となる。 これより$\Rightarrow$が示せた。
+\end{itemize}

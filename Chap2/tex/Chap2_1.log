@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2018.8.2)  8 AUG 2018 01:49
+This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2018.8.2)  13 AUG 2018 11:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -260,7 +260,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (./Chap2_1.aux (./ex2_1.aux) (./ex2_2.aux) (./hukushuu1.aux) (./ex2_3.aux)
 (./ex2_4.aux) (./ex2_5.aux) (./ex2_6.aux) (./hukushuu2.aux) (./ex2_7.aux)
 (./ex2_8.aux) (./hukushuu3.aux) (./ex2_9.aux) (./ex2_10.aux) (./ex2_11.aux)
-(./ex2_16.aux) (./ex2_17.aux))
+(./ex2_16.aux) (./hukushuu4.aux) (./ex2_17.aux) (./ex2_18.aux) (./ex2_19.aux))
 \openout1 = `Chap2_1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -317,13 +317,13 @@ LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 13.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 13.
-)
+ [1
+
+])
 \tf@toc=\write4
 \openout4 = `Chap2_1.toc'.
 
- [1
-
-]
+ [2]
 \openout2 = `ex2_1.aux'.
 
  (./ex2_1.tex
@@ -344,7 +344,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 7.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)) [2
+)) [3
 
 ]
 \openout2 = `ex2_2.aux'.
@@ -358,119 +358,138 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
 )
-[3
+[4
 
 
 ]
 \openout2 = `hukushuu1.aux'.
 
- (./hukushuu1.tex) [4
+ (./hukushuu1.tex) [5
 
 
 ]
 \openout2 = `ex2_3.aux'.
 
- (./ex2_3.tex) [5
+ (./ex2_3.tex) [6
 
 
 ]
 \openout2 = `ex2_4.aux'.
 
- (./ex2_4.tex) [6
+ (./ex2_4.tex) [7
 
 
 ]
 \openout2 = `ex2_5.aux'.
 
  (./ex2_5.tex)
-[7
+[8
 
 
 ]
 \openout2 = `ex2_6.aux'.
 
- (./ex2_6.tex) [8
+ (./ex2_6.tex) [9
 
 
 ]
 \openout2 = `hukushuu2.aux'.
 
- (./hukushuu2.tex) [9
+ (./hukushuu2.tex) [10
 
 
 ]
 \openout2 = `ex2_7.aux'.
 
- (./ex2_7.tex) [10
+ (./ex2_7.tex) [11
 
 
 ]
 \openout2 = `ex2_8.aux'.
 
  (./ex2_8.tex)
-[11
+[12
 
 
 ]
 \openout2 = `hukushuu3.aux'.
 
- (./hukushuu3.tex) [12
+ (./hukushuu3.tex) [13
 
 
 ]
 \openout2 = `ex2_9.aux'.
 
- (./ex2_9.tex) [13
+ (./ex2_9.tex) [14
 
 
 ]
 \openout2 = `ex2_10.aux'.
 
- (./ex2_10.tex) [14
+ (./ex2_10.tex) [15
 
 
 ]
 \openout2 = `ex2_11.aux'.
 
 
-(./ex2_11.tex [15
+(./ex2_11.tex [16
 
 
-]) [16] (./ex2_12.tex) (./ex2_13.tex) (./ex2_14.tex)
-(./ex2_15.tex) [17
+]) [17] (./ex2_12.tex) (./ex2_13.tex) (./ex2_14.tex)
+(./ex2_15.tex) [18
 
 ]
 \openout2 = `ex2_16.aux'.
 
- (./ex2_16.tex) [18
+ (./ex2_16.tex) [19
 
 ]
+\openout2 = `hukushuu4.aux'.
+
+ (./hukushuu4.tex
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 47.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 47.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 47.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 47.
+ [20
+
+
+]) [21]
 \openout2 = `ex2_17.aux'.
 
- (./ex2_17.tex) [19
 
+(./ex2_17.tex) [22
+
+
+] (./ex2_18.tex) (./ex2_19.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
+ [23
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
  (./Chap2_1.aux
 (./ex2_1.aux) (./ex2_2.aux) (./hukushuu1.aux) (./ex2_3.aux) (./ex2_4.aux)
 (./ex2_5.aux) (./ex2_6.aux) (./hukushuu2.aux) (./ex2_7.aux) (./ex2_8.aux)
 (./hukushuu3.aux) (./ex2_9.aux) (./ex2_10.aux) (./ex2_11.aux) (./ex2_16.aux)
-(./ex2_17.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 47.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
+(./hukushuu4.aux) (./ex2_17.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 52.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
 Package rerunfilecheck Info: File `Chap2_1.out' has not changed.
-(rerunfilecheck)             Checksum: 78AF3E80C3AC1682572D6EDFA5440730;1321.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
+(rerunfilecheck)             Checksum: FE8D02360C8D3B56898646713E9A22E3;1533.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  ) 
 Here is how much of TeX's memory you used:
- 5707 strings out of 493239
- 80792 string characters out of 6144408
- 188238 words of memory out of 5000000
- 9517 multiletter control sequences out of 15000+600000
- 12159 words of font info for 62 fonts, out of 8000000 for 9000
+ 5731 strings out of 493239
+ 81064 string characters out of 6144408
+ 189537 words of memory out of 5000000
+ 9523 multiletter control sequences out of 15000+600000
+ 12467 words of font info for 63 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 28i,12n,30p,336b,413s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,12n,30p,336b,431s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Chap2_1.dvi (19 pages, 46892 bytes).
+Output written on Chap2_1.dvi (23 pages, 63556 bytes).

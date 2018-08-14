@@ -21,3 +21,4 @@
 \contentsline {section}{\numberline {21}\fontsize {14.4\jsc@mpt }{21\jsc@mpt }\selectfont \parindent =1zw \kanjiskip =0zw plus .1zw minus .01zw \xkanjiskip =0.25em plus 0.15em minus 0.06em Exercise2.17:}{22}{section.21}
 \contentsline {section}{\numberline {22}\fontsize {14.4\jsc@mpt }{21\jsc@mpt }\selectfont \parindent =1zw \kanjiskip =0zw plus .1zw minus .01zw \xkanjiskip =0.25em plus 0.15em minus 0.06em Exercise 2.18:}{23}{section.22}
 \contentsline {section}{\numberline {23}\fontsize {12\jsc@mpt }{17\jsc@mpt }\selectfont \parindent =1zw \kanjiskip =0zw plus .1zw minus .01zw \xkanjiskip =0.25em plus 0.15em minus 0.06em Exercise2.19:(Pauli matrices: Hermitian and unitary)}{23}{section.23}
+\contentsline {section}{\numberline {24}\fontsize {14.4\jsc@mpt }{21\jsc@mpt }\selectfont \parindent =1zw \kanjiskip =0zw plus .1zw minus .01zw \xkanjiskip =0.25em plus 0.15em minus 0.06em Exercise 2.20:(Basis changes)}{24}{section.24}

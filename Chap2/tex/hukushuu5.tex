@@ -5,18 +5,21 @@ diagonal with respect to some orthonormal basis for $V$.
 Conversely, any diagonalizable operator is normal.
 \newline
 {\large proof:}
-"正規作用素は対角化可能である"ことを
+"正規作用素$M$は対角化可能である"ことを
 $V$の次元$d$における帰納法を用いて示す。
 \newline
 $\cdot ~d = 1$の時、
 $V$の基底を$\ket{v}$とする。この時、任意の線形演算子$M$は、基底に対する作用の和
 で表されるので、ある$\alpha \in \mathbb{C}$を用いて
 $M\ket{v} = \alpha \ket{v}$と表すことができる。ゆえに、
-一次元に作用する線形演算子$M$は対角化可能で、
+一次元に作用する線形演算子$M$はその基底$\ket{v}$で対角化可能で、
 $M = \alpha \ket{v}\bra{v}$と表すことができる。
 \newline
-$\lambda$を$M$の固有値とし、$P_\lambda$を対応する固有空間への
-射影作用素とし、$Q_\lambda$をその補空間への射影作用素とする。
+~$\lambda$を$M$の固有値とし、$P_\lambda$を対応する固有空間の正規化された
+固有ベクトル$\ket{\lambda}$への射影作用素とし、
+$Q_\lambda$をその補空間への射影作用素とする。
+つまり、$P = \ket{\lambda} \bra{\lambda}, Q_\lambda = I_V - P$
+である。
 この時、$M = IMI = 
 (P_\lambda  + Q_\lambda) M (P_\lambda + Q_\lambda) 
 = P_\lambda MP_\lambda + Q_\lambda M P_\lambda + P_\lambda M Q_\lambda 
@@ -39,8 +42,17 @@ QMQQM^\dagger Q &=& QMQM^\dagger Q~(\because Q^2 = Q)\\
 &=& QM^\dagger QMQ~(\because QM^\dagger = QM^\dagger Q)\\
 &=& QM^\dagger QQMQ~(\because Q^2 = Q).
 \end{eqnarray*}
-ゆえに,$QMQ$は正規作用素である。
-帰納法の仮定より、$QMQ$は、$Q$の正規直交基底を用いて対角化可能である。
+ゆえに,$QMQ$は$(d - 1)$次元に作用する正規作用素である。
+(詳しく言えば、$QMQ$は、
+$\ket{\lambda}$を含む正規直交基底から、
+$\ket{\lambda}$を除いた基底で張られる空間に作用する正規作用素である。)
+\newline
+ここで、$(d - 1)$次元に作用する$QMQ$の固有値$\nu$と対応する固有値$\ket{\nu}$
+について考える。
+$QMQ\ket{\nu} = QM\ket{\nu} = \nu \ket{\nu}$.
+$Q^2 = Q$に注意すれば、
+$Q^2 M \ket{\nu} = Q (\nu \ket{\nu}) = \nu \ket{\nu}$.
+ゆえに帰納法の仮定より、$QMQ$は、$Q$の正規直交基底を用いて対角化可能である。
 また、$PMP = \lambda P$より、$P$の正規直交基底で対角化されている。
 これらより、$M = PMP + QMQ$はベクトル空間全体の正規直交基底で対角化可能である。
 

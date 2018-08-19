@@ -1,0 +1,46 @@
+\section{\Large 復習5:スペクトル分解(本文p.72)}
+$theorem :(Spectral~decomposition)$
+Any normal operator $M$ on a vector space $V$ is
+diagonal with respect to some orthonormal basis for $V$.
+Conversely, any diagonalizable operator is normal.
+\newline
+{\large proof:}
+"正規作用素は対角化可能である"ことを
+$V$の次元$d$における帰納法を用いて示す。
+\newline
+$\cdot ~d = 1$の時、
+$V$の基底を$\ket{v}$とする。この時、任意の線形演算子$M$は、基底に対する作用の和
+で表されるので、ある$\alpha \in \mathbb{C}$を用いて
+$M\ket{v} = \alpha \ket{v}$と表すことができる。ゆえに、
+一次元に作用する線形演算子$M$は対角化可能で、
+$M = \alpha \ket{v}\bra{v}$と表すことができる。
+\newline
+$\lambda$を$M$の固有値とし、$P_\lambda$を対応する固有空間への
+射影作用素とし、$Q_\lambda$をその補空間への射影作用素とする。
+この時、$M = IMI = 
+(P_\lambda  + Q_\lambda) M (P_\lambda + Q_\lambda) 
+= P_\lambda MP_\lambda + Q_\lambda M P_\lambda + P_\lambda M Q_\lambda 
++ Q_\lambda M Q_\lambda .$
+明らかに,$PMP = \lambda P$. また、$QMP = 0.$
+ここで、$\ket{v}$を部分空間$P$のベクトルとすれば、
+$MM^\dagger \ket{v} = M^\dagger M \ket{v} = \lambda M^\dagger \ket{v}.$
+ゆえに$M^\dagger \ket{v}$は固有値$\lambda$をもつため、部分空間$P$の要素である。
+すなわち$QM^\dagger P = 0.$
+これのエルミート共役(自己随伴共役)をとれば,$PMQ = 0.$
+これらより、$M = PMP + QMQ.$
+\newline
+次に、$QMQ$が正規であることを示す。
+$QM = QM(P + Q) = QMQ,~ QM^\dagger = QM^\dagger (P + Q) = QM^\dagger Q.$
+また、射影作用素$Q$の性質$Q^2 = Q$より、
+\begin{eqnarray*}
+QMQQM^\dagger Q &=& QMQM^\dagger Q~(\because Q^2 = Q)\\
+&=& QMM^\dagger Q~(\because QMQ = QM)\\
+&=&QM^\dagger M Q~(\because MM^\dagger = M^\dagger M)\\
+&=& QM^\dagger QMQ~(\because QM^\dagger = QM^\dagger Q)\\
+&=& QM^\dagger QQMQ~(\because Q^2 = Q).
+\end{eqnarray*}
+ゆえに,$QMQ$は正規作用素である。
+帰納法の仮定より、$QMQ$は、$Q$の正規直交基底を用いて対角化可能である。
+また、$PMP = \lambda P$より、$P$の正規直交基底で対角化されている。
+これらより、$M = PMP + QMQ$はベクトル空間全体の正規直交基底で対角化可能である。
+

@@ -1,0 +1,28 @@
+\setcounter{equation}{0}
+\begin{flushleft}
+\section{\Large Exercise 2.4: (Matrix representation for identity)}
+Show that the identity operator on a vector space $V$ has a matrix representation 
+which is one along the diagonal and zero everywhere else, if the matrix representation
+is taken with respect to the same input and output bases.
+This matrix is known as the identity matrix.
+\vspace{0.1in}
+\newline
+{\large proof:}
+ベクトル空間$V$の基底を$\{\ket{v_1}, \cdots, \ket{v_n}\}$, 
+$V$上のidentity operatorを$I$とする。
+このとき、任意の$j, (1\leq j\leq n)$について
+\begin{eqnarray*}
+I\ket{v_j}  
+&=& \sum_{i=0}^n a_{ij} \ket{v_i} \\
+&=& \ket{v_j}.
+\end{eqnarray*}
+すなわち、
+ \[a_{ij} = \begin{cases}
+	1 ~(i = j)\\
+	0 ~(i \neq j)
+	\end{cases}
+\]
+このような数を$(i,j)$成分に持つ行列は、対角成分が1で
+その他が0の行列である。
+\end{flushleft}
+

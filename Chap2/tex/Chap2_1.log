@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017/Debian) (preloaded format=uplatex 2018.8.1)  19 AUG 2018 16:47
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017/Debian) (preloaded format=uplatex 2018.8.1)  19 AUG 2018 17:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -508,7 +508,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 56.
 Here is how much of TeX's memory you used:
  5856 strings out of 494731
  82895 string characters out of 6176321
- 179635 words of memory out of 5000000
+ 179636 words of memory out of 5000000
  9164 multiletter control sequences out of 15000+600000
  12065 words of font info for 62 fonts, out of 8000000 for 9000
  269 hyphenation exceptions out of 8191

@@ -1,6 +1,6 @@
 \setcounter{equation}{0}
-{\Large Exercise 2.3: (Matrix representation for operator products)}
-\newline
+\begin{flushleft}
+\section{\Large Exercise 2.3: (Matrix representation for operator products)}
 Suppose $A$ is a liear operator from vector space $V$ to vector space $W$,
 and $B$ is a linear operator from vector space $W$ to vector space $X$.
 Let $\ket{v_i}$, $\ket{w_j}$ and $\ket{x_k}$ be bases 
@@ -21,7 +21,7 @@ $\{\ket{x_1}, \cdots, \ket{x_l}\}$とする。
 このとき$A, B$について行列表現の定義より、
 任意の$i, (1\leq i\leq n)$, $j, (1\leq j\leq m)$において、
 \begin{eqnarray}
-A\ket{v_i} &=& \sum_{j=1}^m a_{ji} \ket{w_j} \\
+A\ket{v_i} &=& \sum_{j=1}^m a_{ji} \ket{w_j}, \\
 B\ket{w_j} &=& \sum_{k=1}^l b_{kj} \ket{x_k}
 \end{eqnarray}
 と表すことが出来る。これより、
@@ -37,3 +37,4 @@ B\ket{w_j} &=& \sum_{k=1}^l b_{kj} \ket{x_k}
 これより,演算子$BA:V \to X$の行列表現の$(k, i)$成分は
 $\sum_{j=1}^m b_{kj} a_{ji}$ と表され、これは$A, B$それぞれの行列表現による行列の
 積の$(k, i)$成分に等しい。
+\end{flushleft}

@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2018.8.2)  15 AUG 2018 06:32
+This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2018.8.2)  19 AUG 2018 00:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -260,7 +260,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (./Chap2_1.aux (./ex2_1.aux) (./ex2_2.aux) (./hukushuu1.aux) (./ex2_3.aux)
 (./ex2_4.aux) (./ex2_5.aux) (./ex2_6.aux) (./hukushuu2.aux) (./ex2_7.aux)
 (./ex2_8.aux) (./hukushuu3.aux) (./ex2_9.aux) (./ex2_10.aux) (./ex2_11.aux)
-(./ex2_16.aux) (./hukushuu4.aux) (./ex2_17.aux) (./ex2_20.aux))
+(./ex2_16.aux) (./hukushuu4.aux) (./ex2_17.aux) (./ex2_20.aux) (./hukushuu5.aux
+) (./ex2_21.aux) (./appendix.aux))
 \openout1 = `Chap2_1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -474,26 +475,46 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
  (./ex2_20.tex) [24
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
+\openout2 = `hukushuu5.aux'.
 
-(./Chap2_1.aux (./ex2_1.aux) (./ex2_2.aux) (./hukushuu1.aux) (./ex2_3.aux)
-(./ex2_4.aux) (./ex2_5.aux) (./ex2_6.aux) (./hukushuu2.aux) (./ex2_7.aux)
-(./ex2_8.aux) (./hukushuu3.aux) (./ex2_9.aux) (./ex2_10.aux) (./ex2_11.aux)
-(./ex2_16.aux) (./hukushuu4.aux) (./ex2_17.aux) (./ex2_20.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 53.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
+
+(./hukushuu5.tex) [25
+
+
+]
+\openout2 = `ex2_21.aux'.
+
+ (./ex2_21.tex) [26
+
+
+]
+\openout2 = `appendix.aux'.
+
+ (./appendix.tex) [27
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
+ (./Chap2_1.aux (./ex2_1.aux) (./ex2_2.aux) (./hukushuu1.aux) (./ex2_3.aux) (./
+ex2_4.aux)
+(./ex2_5.aux) (./ex2_6.aux) (./hukushuu2.aux) (./ex2_7.aux) (./ex2_8.aux)
+(./hukushuu3.aux) (./ex2_9.aux) (./ex2_10.aux) (./ex2_11.aux) (./ex2_16.aux)
+(./hukushuu4.aux) (./ex2_17.aux) (./ex2_20.aux) (./hukushuu5.aux) (./ex2_21.aux
+) (./appendix.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 56.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
 Package rerunfilecheck Info: File `Chap2_1.out' has not changed.
-(rerunfilecheck)             Checksum: 224C460B26C7E80B3F85F1F1B091BAC1;1601.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
+(rerunfilecheck)             Checksum: E22009B08887C6382EDBF46219B3E40B;1777.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 56.
  ) 
 Here is how much of TeX's memory you used:
- 5733 strings out of 493239
- 81083 string characters out of 6144408
- 188269 words of memory out of 5000000
- 9522 multiletter control sequences out of 15000+600000
+ 5756 strings out of 493239
+ 81358 string characters out of 6144408
+ 190527 words of memory out of 5000000
+ 9525 multiletter control sequences out of 15000+600000
  12467 words of font info for 63 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  28i,12n,30p,336b,431s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Chap2_1.dvi (24 pages, 66788 bytes).
+Output written on Chap2_1.dvi (27 pages, 72404 bytes).

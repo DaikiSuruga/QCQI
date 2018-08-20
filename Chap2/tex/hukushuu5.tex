@@ -5,21 +5,32 @@ diagonal with respect to some orthonormal basis for $V$.
 Conversely, any diagonalizable operator is normal.
 \newline
 {\large proof:}
+<<<<<<< HEAD
 "正規作用素$M:V \rightarrow V$は対角化可能である"ことを
 $V$の部分空間$W$の次元$d$における帰納法を用いて示す。
+=======
+"正規作用素$M$は対角化可能である"ことを
+$V$の次元$d$における帰納法を用いて示す。
+>>>>>>> 90ec2af31fca61a54faa943c4f97c5297e30560a
 \newline
 $\cdot ~d = 1$の時、
 $W$の基底を$\ket{v}$とする。この時、$V$で定義された
 任意の$W \subset V$上の正規作用素
 $M:V \rightarrow V$の作用は、基底に対する作用の和
 で表されるので、ある$\alpha \in \mathbb{C}$を用いて
+<<<<<<< HEAD
 $M\ket{v} = \alpha \ket{v}$と表すことができる。
 ゆえに、一次元に作用する正規作用素$M$は対角化可能で、
+=======
+$M\ket{v} = \alpha \ket{v}$と表すことができる。ゆえに、
+一次元に作用する線形演算子$M$はその基底$\ket{v}$で対角化可能で、
+>>>>>>> 90ec2af31fca61a54faa943c4f97c5297e30560a
 $M = \alpha \ket{v}\bra{v}$と表すことができる。
 (ここで大事なのは、$W \setminus V$における$M$の作用は気にしないことである。
 とにかく、$W$上において、$M$は$M = \alpha \ket{v}\bra{v}$と
 同じ作用をすることを示したのである。)
 \newline
+<<<<<<< HEAD
 $\cdot Vの次元をdとする。$
 $W$を次元が$(d - 1)$であるような、$V$の部分空間としたとき、
 正規作用素$M:W \rightarrow W$は$W$の正規直交基底で
@@ -35,6 +46,19 @@ $\ket{\lambda}$への
 + Q_\lambda  M Q_\lambda  .$
 明らかに,$P_\lambda MP_\lambda  = \lambda P_\lambda $. また、$Q_\lambda MP_\lambda  = 0.$
 ここで、$\ket{v}$を部分空間$P_\lambda $のベクトルとすれば、
+=======
+~$\lambda$を$M$の固有値とし、$P_\lambda$を対応する固有空間の正規化された
+固有ベクトル$\ket{\lambda}$への射影作用素とし、
+$Q_\lambda$をその補空間への射影作用素とする。
+つまり、$P = \ket{\lambda} \bra{\lambda}, Q_\lambda = I_V - P$
+である。
+この時、$M = IMI = 
+(P_\lambda  + Q_\lambda) M (P_\lambda + Q_\lambda) 
+= P_\lambda MP_\lambda + Q_\lambda M P_\lambda + P_\lambda M Q_\lambda 
++ Q_\lambda M Q_\lambda .$
+明らかに,$PMP = \lambda P$. また、$QMP = 0.$
+ここで、$\ket{v}$を部分空間$P$のベクトルとすれば、
+>>>>>>> 90ec2af31fca61a54faa943c4f97c5297e30560a
 $MM^\dagger \ket{v} = M^\dagger M \ket{v} = \lambda M^\dagger \ket{v}.$
 ゆえに$M^\dagger \ket{v}$は固有値$\lambda$をもつような部分空間$P_\lambda $の要素である。
 すなわち$Q_\lambda M^\dagger P_\lambda  = 0.$
@@ -51,6 +75,7 @@ Q_\lambda MQ_\lambda Q_\lambda M^\dagger Q_\lambda  &=& Q_\lambda MQ_\lambda M^\
 &=& Q_\lambda M^\dagger Q_\lambda MQ_\lambda ~(\because Q_\lambda M^\dagger = Q_\lambda M^\dagger Q_\lambda )\\
 &=& Q_\lambda M^\dagger Q_\lambda Q_\lambda MQ_\lambda ~(\because Q_\lambda ^2 = Q_\lambda ).
 \end{eqnarray*}
+<<<<<<< HEAD
 ゆえに,$Q_\lambda MQ_\lambda $は$(d-1)$次元の部分空間$W$に作用する正規作用素と考えることができる。
 帰納法の仮定より、$Q_\lambda MQ_\lambda :V \rightarrow V$は、
 $W$において$Q_\lambda $の正規直交基底を用いて対角化可能である。
@@ -79,3 +104,19 @@ P_\lambda MP_\lambda \ket{\nu} + Q_\lambda MQ_\lambda \ket{\nu}\\
 $M =　\sum_i \lambda_i \ket{\lambda_i} \bra{\lambda_i}$
 と表されている$M$は、固有値$\lambda_i$とこの値に対応する固有ベクトル
 $\ket{\lambda_i}$を持つことが分かる。
+=======
+ゆえに,$QMQ$は$(d - 1)$次元に作用する正規作用素である。
+(詳しく言えば、$QMQ$は、
+$\ket{\lambda}$を含む正規直交基底から、
+$\ket{\lambda}$を除いた基底で張られる空間に作用する正規作用素である。)
+\newline
+ここで、$(d - 1)$次元に作用する$QMQ$の固有値$\nu$と対応する固有値$\ket{\nu}$
+について考える。
+$QMQ\ket{\nu} = QM\ket{\nu} = \nu \ket{\nu}$.
+$Q^2 = Q$に注意すれば、
+$Q^2 M \ket{\nu} = Q (\nu \ket{\nu}) = \nu \ket{\nu}$.
+ゆえに帰納法の仮定より、$QMQ$は、$Q$の正規直交基底を用いて対角化可能である。
+また、$PMP = \lambda P$より、$P$の正規直交基底で対角化されている。
+これらより、$M = PMP + QMQ$はベクトル空間全体の正規直交基底で対角化可能である。
+
+>>>>>>> 90ec2af31fca61a54faa943c4f97c5297e30560a

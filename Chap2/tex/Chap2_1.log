@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017/Debian) (preloaded format=uplatex 2018.8.1)  20 AUG 2018 13:53
+=======
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017/Debian) (preloaded format=uplatex 2018.8.1)  20 AUG 2018 13:59
+>>>>>>> 81659dfcbc88ab432d6add9705cc8ac5441b25ad
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -531,4 +535,8 @@ Here is how much of TeX's memory you used:
  269 hyphenation exceptions out of 8191
  28i,12n,30p,336b,431s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+<<<<<<< HEAD
 Output written on Chap2_1.dvi (31 pages, 86532 bytes).
+=======
+Output written on Chap2_1.dvi (31 pages, 86096 bytes).
+>>>>>>> 81659dfcbc88ab432d6add9705cc8ac5441b25ad

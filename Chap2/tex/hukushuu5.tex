@@ -9,68 +9,71 @@ Conversely, any diagonalizable operator is normal.
 $V$の部分空間$W$の次元$d$における帰納法を用いて示す。
 \newline
 $\cdot ~d = 1$の時、
-$W$の基底を$\ket{v}$とする。この時、任意の$V$上の正規作用素$M:V \leftarrow V$
-の作用は、
-基底に対する作用の和
+$W$の基底を$\ket{v}$とする。この時、$V$で定義された
+任意の$W \subset V$上の正規作用素
+$M:V \rightarrow V$の作用は、基底に対する作用の和
 で表されるので、ある$\alpha \in \mathbb{C}$を用いて
 $M\ket{v} = \alpha \ket{v}$と表すことができる。
 ゆえに、一次元に作用する正規作用素$M$は対角化可能で、
 $M = \alpha \ket{v}\bra{v}$と表すことができる。
+(ここで大事なのは、$W \setminus V$における$M$の作用は気にしないことである。
+とにかく、$W$上において、$M$は$M = \alpha \ket{v}\bra{v}$と
+同じ作用をすることを示したのである。)
 \newline
 $\cdot Vの次元をdとする。$
 $W$を次元が$(d - 1)$であるような、$V$の部分空間としたとき、
-正規作用素$M:V \rightarrow V$は,$W$においては$W$の正規直交基底で
+正規作用素$M:W \rightarrow W$は$W$の正規直交基底で
 対角化可能であるとする。
-$\lambda$を$M$の固有値とし、$P_\lambda$を対応する固有空間の正規化された固有ベクトル
+$\lambda$を$M$の固有値とし、$P_\lambda $を対応する固有空間の正規化された固有ベクトル
 $\ket{\lambda}$への
-射影作用素とし、$Q_\lambda$をその補空間への射影作用素とする。
-つまり、$P_\lambda = \ket{\lambda} \bra{\lambda}, Q_\lambda = I_V - P_\lambda$である。
+射影作用素とし、$Q_\lambda $をその補空間への射影作用素とする。
+つまり、$P_\lambda  = \ket{\lambda} \bra{\lambda}, Q_\lambda  = I_V - P_\lambda $である。
 
-この時、$M = IMI = 
-(P_\lambda  + Q_\lambda) M (P_\lambda + Q_\lambda) 
-= P_\lambda MP_\lambda + Q_\lambda M P_\lambda + P_\lambda M Q_\lambda 
-+ Q_\lambda M Q_\lambda .$
-明らかに,$PMP = \lambda P$. また、$QMP = 0.$
-ここで、$\ket{v}$を部分空間$P$のベクトルとすれば、
+この時、$M = I_VMI_V = 
+(P_\lambda   + Q_\lambda ) M (P_\lambda  + Q_\lambda ) 
+= P_\lambda  MP_\lambda  + Q_\lambda  M P_\lambda  + P_\lambda  M Q_\lambda  
++ Q_\lambda  M Q_\lambda  .$
+明らかに,$P_\lambda MP_\lambda  = \lambda P_\lambda $. また、$Q_\lambda MP_\lambda  = 0.$
+ここで、$\ket{v}$を部分空間$P_\lambda $のベクトルとすれば、
 $MM^\dagger \ket{v} = M^\dagger M \ket{v} = \lambda M^\dagger \ket{v}.$
-ゆえに$M^\dagger \ket{v}$は固有値$\lambda$をもつため、部分空間$P$の要素である。
-すなわち$QM^\dagger P = 0.$
-これのエルミート共役(自己随伴共役)をとれば,$PMQ = 0.$
-これらより、$M = PMP + QMQ.$
+ゆえに$M^\dagger \ket{v}$は固有値$\lambda$をもつような部分空間$P_\lambda $の要素である。
+すなわち$Q_\lambda M^\dagger P_\lambda  = 0.$
+これのエルミート共役(自己随伴共役)をとれば,$P_\lambda MQ_\lambda  = 0.$
+これらより、$M = P_\lambda MP_\lambda  + Q_\lambda MQ_\lambda .$
 \newline
-次に、$QMQ$が正規であることを示す。
-$QM = QM(P + Q) = QMQ,~ QM^\dagger = QM^\dagger (P + Q) = QM^\dagger Q.$
-また、射影作用素$Q$の性質$Q^2 = Q$より、
+次に、$Q_\lambda MQ_\lambda $が正規であることを示す。
+$Q_\lambda M = Q_\lambda M(P_\lambda  + Q_\lambda ) = Q_\lambda MQ_\lambda ,~ Q_\lambda M^\dagger = Q_\lambda M^\dagger (P_\lambda  + Q_\lambda ) = Q_\lambda M^\dagger Q_\lambda .$
+また、射影作用素$Q_\lambda $の性質$Q_\lambda ^2 = Q_\lambda $より、
 \begin{eqnarray*}
-QMQQM^\dagger Q &=& QMQM^\dagger Q~(\because Q^2 = Q)\\
-&=& QMM^\dagger Q~(\because QMQ = QM)\\
-&=&QM^\dagger M Q~(\because MM^\dagger = M^\dagger M)\\
-&=& QM^\dagger QMQ~(\because QM^\dagger = QM^\dagger Q)\\
-&=& QM^\dagger QQMQ~(\because Q^2 = Q).
+Q_\lambda MQ_\lambda Q_\lambda M^\dagger Q_\lambda  &=& Q_\lambda MQ_\lambda M^\dagger Q_\lambda ~(\because Q_\lambda ^2 = Q_\lambda )\\
+&=& Q_\lambda MM^\dagger Q_\lambda ~(\because Q_\lambda MQ_\lambda  = Q_\lambda M)\\
+&=&Q_\lambda M^\dagger M Q_\lambda ~(\because MM^\dagger = M^\dagger M)\\
+&=& Q_\lambda M^\dagger Q_\lambda MQ_\lambda ~(\because Q_\lambda M^\dagger = Q_\lambda M^\dagger Q_\lambda )\\
+&=& Q_\lambda M^\dagger Q_\lambda Q_\lambda MQ_\lambda ~(\because Q_\lambda ^2 = Q_\lambda ).
 \end{eqnarray*}
-ゆえに,$QMQ$は$(d-1)$次元の部分空間$W$に作用する正規作用素と考えることができる。
-帰納法の仮定より、$QMQ:V \rightarrow V$は、
-$W$において$Q$の正規直交基底を用いて対角化可能である。
+ゆえに,$Q_\lambda MQ_\lambda $は$(d-1)$次元の部分空間$W$に作用する正規作用素と考えることができる。
+帰納法の仮定より、$Q_\lambda MQ_\lambda :V \rightarrow V$は、
+$W$において$Q_\lambda $の正規直交基底を用いて対角化可能である。
 \newline
-$QMQ$の$\ket{x} \in V \setminus W$に対する作用を考えると、$V\setminus W$は
-すなわち、$\ket{\lambda}$で張られる空間に等しいため、$Q = I_V - P_\lambda$
-であることから、$QMQ\ket{x} = 0$であることがわかる。
-この議論より、$\lambda_i$ を$Q$の正規直交基底とすると、$V$上で
-$QMQ = \sum_i \lambda_i \ket{\lambda_i} \bra{\lambda_i}$と表される。
+$Q_\lambda MQ_\lambda $の$\ket{x} \in V \setminus W$に対する作用を考えると、$V\setminus W$は
+すなわち、$\ket{\lambda}$で張られる空間に等しいため、$Q_\lambda  = I_V - P_\lambda $
+であることから、$Q_\lambda MQ_\lambda \ket{x} = 0$であることがわかる。
+この議論より、$\lambda_i$ を$Q_\lambda $の正規直交基底とすると、$V$上で
+$Q_\lambda MQ_\lambda  = \sum_i \lambda_i \ket{\lambda_i} \bra{\lambda_i}$と表される。
 \newline
-これらより、$M = PMP + QMQ = \lambda \ket{\lambda} \bra{\lambda} 
+これらより、$M = P_\lambda MP_\lambda  + Q_\lambda MQ_\lambda  = \lambda \ket{\lambda} \bra{\lambda} 
 + \sum_i \lambda_i \ket{\lambda_i} \bra{\lambda_i}$
 はベクトル空間全体の正規直交基底で対角化可能である。
 \newline
-また、$M = PMP + QMQ$であることから、$QMQ$の固有値を$\nu$,
+また、$M = P_\lambda MP_\lambda  + Q_\lambda MQ_\lambda $であることから、$Q_\lambda MQ_\lambda $の固有値を$\nu$,
 対応する固有ベクトルを$\ket{\nu}$とすれば、
 \begin{eqnarray*}
 M\ket{\nu} &=&
-PMP\ket{\nu} + QMQ\ket{\nu}\\
-&=& QMQ\ket{\nu}\\
+P_\lambda MP_\lambda \ket{\nu} + Q_\lambda MQ_\lambda \ket{\nu}\\
+&=& Q_\lambda MQ_\lambda \ket{\nu}\\
 &=& \nu \ket{\nu}.\\
 \end{eqnarray*}
-すなわち、$QMQ$の固有値、固有ベクトルは$M$の固有値、固有ベクトルであることが分かる。
+すなわち、$Q_\lambda MQ_\lambda $の固有値、固有ベクトルは$M$の固有値、固有ベクトルであることが分かる。
 \newline
 これを踏まえずとも、
 $M =　\sum_i \lambda_i \ket{\lambda_i} \bra{\lambda_i}$

@@ -25,4 +25,5 @@
 \contentsline {section}{\numberline {25}\fontsize {14.4\jsc@mpt }{21\jsc@mpt }\selectfont \parindent =1zw \kanjiskip =0zw plus .1zw minus .01zw \xkanjiskip =0.25em plus 0.15em minus 0.06em Exercise 2.20:(Basis changes)}{26}{section.25}
 \contentsline {section}{\numberline {26}\fontsize {14.4\jsc@mpt }{21\jsc@mpt }\selectfont \parindent =1zw \kanjiskip =0zw plus .1zw minus .01zw \xkanjiskip =0.25em plus 0.15em minus 0.06em 復習5:スペクトル分解(本文p.72)}{27}{section.26}
 \contentsline {section}{\numberline {27}\fontsize {14.4\jsc@mpt }{21\jsc@mpt }\selectfont \parindent =1zw \kanjiskip =0zw plus .1zw minus .01zw \xkanjiskip =0.25em plus 0.15em minus 0.06em Exercise 2.21:}{29}{section.27}
-\contentsline {section}{\numberline {28}\fontsize {12\jsc@mpt }{17\jsc@mpt }\selectfont \parindent =1zw \kanjiskip =0zw plus .1zw minus .01zw \xkanjiskip =0.25em plus 0.15em minus 0.06em appendix}{30}{section.28}
+\contentsline {section}{\numberline {28}\fontsize {14.4\jsc@mpt }{21\jsc@mpt }\selectfont \parindent =1zw \kanjiskip =0zw plus .1zw minus .01zw \xkanjiskip =0.25em plus 0.15em minus 0.06em Exercise2.22:}{30}{section.28}
+\contentsline {section}{\numberline {29}\fontsize {12\jsc@mpt }{17\jsc@mpt }\selectfont \parindent =1zw \kanjiskip =0zw plus .1zw minus .01zw \xkanjiskip =0.25em plus 0.15em minus 0.06em appendix}{31}{section.29}

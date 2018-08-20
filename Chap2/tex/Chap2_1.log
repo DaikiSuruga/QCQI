@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017/Debian) (preloaded format=uplatex 2018.8.1)  20 AUG 2018 13:50
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017/Debian) (preloaded format=uplatex 2018.8.1)  20 AUG 2018 13:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -256,32 +256,279 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip47
 )
 (./Chap2_1.aux (./ex2_1.aux) (./ex2_2.aux) (./hukushuu1.aux) (./ex2_3.aux)
-(./ex2_4.aux) (./ex2_5.aux
+(./ex2_4.aux) (./ex2_5.aux) (./ex2_6.aux) (./hukushuu2.aux) (./ex2_7.aux)
+(./ex2_8.aux) (./hukushuu3.aux) (./ex2_9.aux) (./ex2_10.aux) (./ex2_11.aux)
+(./hukushuu3_5.aux) (./ex2_16.aux) (./hukushuu4.aux) (./ex2_17.aux)
+(./ex2_20.aux) (./hukushuu5.aux) (./ex2_21.aux) (./ex2_22.aux) (./appendix.aux)
+)
+\openout1 = `Chap2_1.aux'.
 
-! LaTeX Error: Missing \begin{document}.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+\AtBeginShipoutBox=\box46
+Package hyperref Info: Link coloring OFF on input line 7.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 <
-     <<<<<< HEAD
-? 
-! Emergency stop.
- ...                                              
-                                                  
-l.3 <
-     <<<<<< HEAD
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count115
+)
+LaTeX Info: Redefining \ref on input line 7.
+LaTeX Info: Redefining \pageref on input line 7.
+LaTeX Info: Redefining \nameref on input line 7.
 
- 
+(./Chap2_1.out) (./Chap2_1.out)
+\@outlinefile=\write3
+\openout3 = `Chap2_1.out'.
+
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 9.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 9.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 15.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 15.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 15.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 15.
+ (./Chap2_1.toc
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 11.09619pt on input line 14.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 11.09619pt on input line 14.
+ [1
+
+])
+\tf@toc=\write4
+\openout4 = `Chap2_1.toc'.
+
+ [2]
+\openout2 = `ex2_1.aux'.
+
+ (./ex2_1.tex
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 11.09619pt on input line 6.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 11.09619pt on input line 6.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 6.47278pt on input line 7.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 4.62341pt on input line 7.
+LaTeX Font Info:    Try loading font information for U+msa on input line 7.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 7.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)) [3
+
+]
+\openout2 = `ex2_2.aux'.
+
+ (./ex2_2.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 13.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
+) [4
+
+
+]
+\openout2 = `hukushuu1.aux'.
+
+ (./hukushuu1.tex) [5
+
+
+]
+\openout2 = `ex2_3.aux'.
+
+ (./ex2_3.tex) [6
+
+
+]
+\openout2 = `ex2_4.aux'.
+
+ (./ex2_4.tex) [7
+
+
+]
+\openout2 = `ex2_5.aux'.
+
+ (./ex2_5.tex) [8
+
+
+]
+\openout2 = `ex2_6.aux'.
+
+ (./ex2_6.tex)
+[9
+
+
+]
+\openout2 = `hukushuu2.aux'.
+
+ (./hukushuu2.tex) [10
+
+
+]
+\openout2 = `ex2_7.aux'.
+
+ (./ex2_7.tex) [11
+
+
+]
+\openout2 = `ex2_8.aux'.
+
+ (./ex2_8.tex) [12
+
+
+]
+\openout2 = `hukushuu3.aux'.
+
+
+(./hukushuu3.tex) [13
+
+
+]
+\openout2 = `ex2_9.aux'.
+
+ (./ex2_9.tex) [14
+
+
+]
+\openout2 = `ex2_10.aux'.
+
+ (./ex2_10.tex) [15
+
+
+]
+\openout2 = `ex2_11.aux'.
+
+ (./ex2_11.tex
+[16
+
+
+]) [17]
+\openout2 = `hukushuu3_5.aux'.
+
+ (./hukushuu3_5.tex) [18
+
+
+] (./ex2_12.tex) (./ex2_13.tex
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 6.47278pt on input line 23.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 4.62341pt on input line 23.
+) (./ex2_14.tex [19
+
+]) (./ex2_15.tex) [20]
+\openout2 = `ex2_16.aux'.
+
+ (./ex2_16.tex) [21
+
+]
+\openout2 = `hukushuu4.aux'.
+
+ (./hukushuu4.tex
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 47.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 47.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 47.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 47.
+ [22
+
+
+]) [23]
+\openout2 = `ex2_17.aux'.
+
+
+(./ex2_17.tex) [24
+
+
+] (./ex2_18.tex) (./ex2_19.tex) [25
+
+]
+\openout2 = `ex2_20.aux'.
+
+ (./ex2_20.tex) [26
+
+]
+\openout2 = `hukushuu5.aux'.
+
+
+(./hukushuu5.tex [27
+
+
+]) [28]
+\openout2 = `ex2_21.aux'.
+
+ (./ex2_21.tex) [29
+
+
+]
+\openout2 = `ex2_22.aux'.
+
+ (./ex2_22.tex) [30
+
+
+]
+\openout2 = `appendix.aux'.
+
+
+(./appendix.tex) [31
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
+ (./Chap2_1.aux (./ex2_1.aux) (./ex2_2.aux)
+(./hukushuu1.aux) (./ex2_3.aux) (./ex2_4.aux) (./ex2_5.aux) (./ex2_6.aux)
+(./hukushuu2.aux) (./ex2_7.aux) (./ex2_8.aux) (./hukushuu3.aux) (./ex2_9.aux)
+(./ex2_10.aux) (./ex2_11.aux) (./hukushuu3_5.aux) (./ex2_16.aux)
+(./hukushuu4.aux) (./ex2_17.aux) (./ex2_20.aux) (./hukushuu5.aux) (./ex2_21.aux
+) (./ex2_22.aux) (./appendix.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 64.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 64.
+Package rerunfilecheck Info: File `Chap2_1.out' has not changed.
+(rerunfilecheck)             Checksum: 690E6BB7765B0E25029B029E565BB429;1919.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 64.
+ ) 
 Here is how much of TeX's memory you used:
- 5479 strings out of 494731
- 77934 string characters out of 6176321
- 161824 words of memory out of 5000000
- 8968 multiletter control sequences out of 15000+600000
- 6836 words of font info for 36 fonts, out of 8000000 for 9000
+ 5872 strings out of 494731
+ 83097 string characters out of 6176321
+ 180555 words of memory out of 5000000
+ 9166 multiletter control sequences out of 15000+600000
+ 12269 words of font info for 64 fonts, out of 8000000 for 9000
  269 hyphenation exceptions out of 8191
- 28i,0n,26p,316b,85s stack positions out of 5000i,500n,10000p,200000b,80000s
-No pages of output.
+ 28i,12n,30p,336b,431s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on Chap2_1.dvi (31 pages, 86096 bytes).

@@ -1,0 +1,43 @@
+\section{\Large Exercise2.17:} Show that a normal matrix is
+Hermitian if and only if it has real eigenvalues.
+\newline
+（補足）固有値が全て実数である、と言う意味。
+\newline
+{\large proof:}
+行列$A$が正規行列であるとする。すなわち
+$AA^\dagger = A^\dagger A$.
+このとき、行列$A$はユニタリ対角化可能であることから、
+あるユニタリ行列$U$が存在し、$D \equiv U^\dagger AU$は対角行列となる。
+(対角化可能については\hyperlink{hukushuu4}{復習4}を参照してください。)
+ここで、$A$の固有ベクトルが実数であるとすると、$D = D^\dagger$となる。
+このとき、$A = UDU^\dagger = (U^\dagger)^\dagger (D^\dagger)^\dagger U^\dagger = (U D^\dagger U^\dagger)^\dagger
+= (U D U^\dagger)^\dagger = A^\dagger$.
+ゆえに、$A$はHermitianである。
+\newline
+逆に$A$がHermitianとする。$A$の固有値$\alpha \in \mathbb{C}$に対する固有空間$V_\alpha$
+の固有ベクトルを$v \in V_\alpha$とする。
+ここで、次の補題を示す。
+\newline
+\color{blue}
+\hypertarget{hodai.ex2.17}{}
+$\cdot$補題：正規行列$A$について、その固有値$\alpha$に対する
+固有空間$V_\alpha$のベクトルを$x \in V_\alpha$とすると、
+\begin{eqnarray*}
+Ax = \alpha x \Leftrightarrow A^\dagger x = \alpha^* x.
+\end{eqnarray*}
+{proof:}
+\begin{eqnarray*}
+Ax = \alpha x &\Leftrightarrow& (A - \alpha E)x = 0\\
+&\Leftrightarrow& ((A - \alpha E)x ,(A - \alpha E)x) = 0\\
+&\Leftrightarrow& (x ,(A - \alpha E)^\dagger (A - \alpha E)x) = 0\\
+&\Leftrightarrow& (x ,(A - \alpha E) (A - \alpha E)^\dagger x) = 0, (ここでAA^\dagger = A^\dagger Aを用いた)\\
+&\Leftrightarrow& ((A - \alpha E)^\dagger x ,(A - \alpha E)^\dagger x) = 0\\
+&\Leftrightarrow& (A - \alpha E)^\dagger x = 0\\
+&\Leftrightarrow& A^\dagger x = \alpha^*x.
+\end{eqnarray*}
+\newline
+\color{black}
+$A$はHermitianより、正規行列であるので、この補題より、
+$A^\dagger v = A v = \alpha^* v = \alpha v.$ここから、$(\alpha^* - \alpha) v = 0.$
+$V_\alpha$は0でない元を含むため、$\alpha^* = \alpha$.
+ゆえに$\alpha$は実数である。

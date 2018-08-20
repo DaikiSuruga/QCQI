@@ -1,0 +1,40 @@
+\setcounter{equation}{0}
+\begin{flushleft}
+\section{\Large Exercise 2.3: (Matrix representation for operator products)}
+Suppose $A$ is a liear operator from vector space $V$ to vector space $W$,
+and $B$ is a linear operator from vector space $W$ to vector space $X$.
+Let $\ket{v_i}$, $\ket{w_j}$ and $\ket{x_k}$ be bases 
+for the vector spaces $V, W,$ and $X$, respectively.
+\newline
+Show that the matrix representaion for the linear transformation 
+$BA$ is the matrix product of the matrix representations for $B$ and $A$, 
+with respect to the appropriate bases.
+\vspace{0.1in}
+\newline
+{\large proof:}
+\newline
+$V$,$W$,$X$の次元をそれぞれ$n, m, l$とし、基底をそれぞれ
+$\{\ket{v_1}, \cdots, \ket{v_n}\}$,
+$\{\ket{w_1}, \cdots, \ket{w_m}\}$,
+$\{\ket{x_1}, \cdots, \ket{x_l}\}$とする。
+
+このとき$A, B$について行列表現の定義より、
+任意の$i, (1\leq i\leq n)$, $j, (1\leq j\leq m)$において、
+\begin{eqnarray}
+A\ket{v_i} &=& \sum_{j=1}^m a_{ji} \ket{w_j}, \\
+B\ket{w_j} &=& \sum_{k=1}^l b_{kj} \ket{x_k}
+\end{eqnarray}
+と表すことが出来る。これより、
+\begin{eqnarray*}
+(BA)\ket{v_i}
+&=& B(A\ket{v_i}) \\
+&=& B(\sum_{j=1}^m a_{ji} \ket{w_j}) \\
+&=& \sum_{j=1}^m a_{ji} B\ket{w_j} \\
+&=& \sum_{j=1}^m \sum_{k=1}^l a_{ji} b_{kj} \ket{x_k} \\
+&=& \sum_{k=1}^l (\sum_{j=1}^m b_{kj} a_{ji}) \ket{x_k}.
+\end{eqnarray*}
+
+これより,演算子$BA:V \to X$の行列表現の$(k, i)$成分は
+$\sum_{j=1}^m b_{kj} a_{ji}$ と表され、これは$A, B$それぞれの行列表現による行列の
+積の$(k, i)$成分に等しい。
+\end{flushleft}

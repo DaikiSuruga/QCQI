@@ -1,0 +1,43 @@
+\hypertarget{hukushuu3.5}{}
+\section{\Large 復習3.5:(エルミート変換の一意性)}
+任意の内積空間$(V, (\cdot, \cdot))$に作用する
+任意の線形作用素$A$に対して、次を満たすような線形作用素$A^\dagger$が
+一意に定まる。
+\begin{eqnarray*}
+\forall \ket{x}, \ket{y} \in V, ~~~
+(\ket{x}, A \ket{y}) = (A^\dagger \ket{x}, \ket{y}).
+\end{eqnarray*}
+{\large proof:}
+まず、$A^\dagger$の存在を示す。
+\newline
+$V$の正規直交基底を任意に一つ定め、$<e_1, \cdots, e_n>$とする。
+ここで、$x \in V$に対して、$A^\dagger x = \sum_{i}^n (Ae_i, x) e_i$
+と置けば、$A^\dagger$は$V$の線形変換である。
+このとき、任意の$y \in V$に対して、$y = \sum_{i}^n y_i e_i$とすると、
+\begin{eqnarray*}
+(A^\dagger x, y) = (\sum_{i}^n (Ae_i, x) e_i, y)
+= \sum_{i}^n (Ae_i, x)^*  (e_i, y)
+= \sum_{i}^n y_{i} (x, Ae_i).
+\end{eqnarray*}
+
+また、
+\begin{eqnarray*}
+(x, Ay) = (x, \sum_{i}^n y_i A e_i) = \sum_{i}^n y_i (x, Ae_i)
+\end{eqnarray*}
+ゆえに、任意の$x, y \in V$について
+$(A^\dagger x, y) = (x, Ay)$が成り立つ。
+\newline
+ここからは一意性を示す。
+$f, g$を$V$から$V$への写像であるとする。
+任意の$x, y \in V$に対して
+$(f(x), y) = (g(x), y)$
+が成り立つとすると、
+$0 = (f(x), y) - (g(x), y) = (f(x) - g(x), y)$
+であるが、ここで特に$y = f(x) - g(x)$と置けば
+$\|f(x) - g(x) \|^2 = (f(x) - g(x), f(x) - g(x)) = 0$ 
+となる。よって$f(x) - g(x) = 0$である。
+したがって$f(x) = g(x)$であり、$x$は任意だから$f=g$である。
+これより
+特に任意の$x, y \in V$に対して、
+$(A_{1}^\dagger x, y) = (x, Ay) = (A_{2}^\dagger x, y)$ 
+であるから、上記で示したとおり$A_{1}^\dagger = A_{2}^\dagger$が分かる。

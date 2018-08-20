@@ -1,0 +1,62 @@
+\section{\Large 復習1:(表現行列の定義)}
+\setcounter{equation}{0}
+線形写像$f:V \to W$において、
+$V$の基底を$\{v_1, \cdots, v_n\}$, $W$の基底を$\{w_1,\cdots, w_m\}$とする。
+\newline
+ここで,任意の$j (1\leq j\leq n)$について、
+$f(v_j) = \sum_{i=1}^m a_{ij}w_i$とする。
+\newline
+($f:V \to W$より、任意のj($1\leq j\leq n$)について
+$f(v_j)$は$W$の基底$\{w_1, \cdots, w_m\}$の線型結合で表される。
+)
+\newline
+このとき行列$A$の(i, j)成分を$a_{ij}$とすれば、 
+\begin{equation}
+[f(v_1), \cdots, f(v_n)] = [w_1, \cdots, w_m]A
+\end{equation}
+というような便宜的表記をすることができる。この行列$A$を$f$の表現行列という。
+\newline
+ この表現行列の便利な点
+\newline
+$V$の基底を$\{\ket{v_1},\cdots, \ket{v_n}\}$とすると、 
+$V$の任意の元$\upsilon$は
+$\upsilon = \sum_{j=1}^n x_j v_j, (\forall j, x_j \in \mathbb{C})$
+として表すことが出来る。
+\newline
+\begin{equation}
+f(\upsilon) \newline
+=f(\sum_{j=1}^n x_j v_j) \\ 
+=\sum_{j=1}^n x_j f(v_j) \\
+=\sum_{j=1}^n x_j \sum_{i=1}^m a_{ij}w_i \\
+=\sum_{j=1}^n \sum_{i=1}^m x_j a_{ij}w_i \\
+=\sum_{i=1}^m (\sum_{j=1}^n a_{ij} x_j)w_i
+\end{equation}
+ここで、
+\[x = \left(
+	\begin{array}{c}
+	x_1 \\
+	\vdots \\
+	x_n
+	\end{array}
+	\right)
+\]
+とすると、
+$\sum_{j=1}^n a_{ij} x_j$
+は(m, 1)ベクトル$Ax$の$i$成分となる。
+\newline
+ここで特に(2)において、
+\begin{equation}
+f(\upsilon)
+=\sum_{j=1}^n x_j f(v_j) \\
+=\sum_{i=1}^m (\sum_{j=1}^n a_{ij} x_j)w_i
+\end{equation}
+が成立していることに注意すると、
+(1)の表記を用いて
+\begin{equation}
+[f(\upsilon)]=[f(v_1), \cdots, f(v_n)]x
+ = [w_1, \cdots, w_m]Ax
+\end{equation}
+と表すことが出来る。
+すなわち、$V$の基底$\{v_1,\cdots, v_n\}$に対する$\upsilon$の係数ベクトル$x$
+で $W$の基底$\{w_1,\cdots, w_m\}$の係数を$Ax$と表すことが出来る。
+これが表現行列の便利な点である。
